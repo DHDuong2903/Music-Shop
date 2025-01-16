@@ -12,13 +12,13 @@
                         <div class="container h-full">
                             <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
                                 <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
-                            <span class="ltext-101 cl2 respon2">
-                                HOT 2025
-                            </span>
+                                    <span class="ltext-101 cl2 respon2" style="color: #fff;">
+                                        HOT 2025
+                                    </span>
                                 </div>
 
                                 <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
-                                    <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                    <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1" style="color: #fff;">
                                         {{ $slider->name }}
                                     </h2>
                                 </div>
@@ -95,9 +95,9 @@
 
 
             <!-- Load more -->
-            <div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore">
+            <div class="flex-c-m flex-w w-full p-t-45" id="button-loadMore" style="color: #fff">
                 <input type="hidden" value="1" id="page">
-                <a onclick="loadMore()" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+                <a onclick="loadMore()" class="flex-c-m stext-101 cl5 size-103 bor1 hov-btn1 p-lr-15 trans-04 bg1" style="cursor: pointer; transition: all 0.2s ease-in-out;" >
                     Load More
                 </a>
             </div>

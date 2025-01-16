@@ -7,8 +7,8 @@
             <nav class="limiter-menu-desktop container">
 
                 <!-- Logo desktop -->
-                <a href="#" class="logo">
-                    <img src="/template/images/icons/logo-01.png" alt="IMG-LOGO">
+                <a href="/" class="logo">
+                    <img style="max-height: 300%" src="/template/images/icons/logo-music-instrument.png" alt="IMG-LOGO">
                 </a>
 
                 <!-- Menu desktop -->
@@ -34,6 +34,16 @@
                          data-notify="{{ !is_null(\Session::get('carts')) ? count(\Session::get('carts')) : 0 }}">
                         <i class="zmdi zmdi-shopping-cart"></i>
                     </div>
+
+                    <a 
+                        href="{{ route('login') }}" 
+                        class="header-login" 
+                        style="color: #333; padding-left: 22px; cursor: pointer; transition: all 0.2s ease-in-out;" 
+                        onmouseover="this.style.color='#6c7ae0'" 
+                        onmouseout="this.style.color='#333'"
+                    >
+                        Đăng nhập
+                    </a>
 
                 </div>
             </nav>

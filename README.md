@@ -110,6 +110,6 @@ Ngành học: CNTT
 
 Login admin: 
 
-Email: admin@gmail.com
+Email: admin@localhost.com
 
-Password: 123456
+Password: 29032004

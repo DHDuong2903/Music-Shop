@@ -1,4 +1,4 @@
-# Sử dụng PHP 8.2 với Nginx
+# Sử dụng PHP 8.2 với FPM
 FROM php:8.2-fpm
 
 # Cài đặt các dependencies cần thiết
@@ -31,10 +31,12 @@ RUN chmod -R 775 storage bootstrap/cache
 
 # Copy file config Nginx
 COPY .docker/nginx/default.conf /etc/nginx/sites-available/default
+
+# Tạo symbolic link
 RUN ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 
 # Mở port 80
 EXPOSE 80
 
 # Lệnh chạy PHP-FPM và Nginx
-CMD ["sh", "-c", "nginx -g 'daemon off;' & php-fpm"]
+CMD service nginx start && php-fpm

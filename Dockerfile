@@ -31,9 +31,10 @@ RUN chmod -R 775 storage bootstrap/cache
 
 # Copy file config Nginx
 COPY .docker/nginx/default.conf /etc/nginx/sites-available/default
+RUN ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 
 # Mở port 80
 EXPOSE 80
 
 # Lệnh chạy PHP-FPM và Nginx
-CMD service nginx start && php-fpm
+CMD ["sh", "-c", "nginx -g 'daemon off;' & php-fpm"]

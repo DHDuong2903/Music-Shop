@@ -1,0 +1,25 @@
+services:
+  - name: music-shop
+    type: web
+    runtime: docker
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        sync: false  # Render tự lấy từ `.env`
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        value: https://your-render-url.onrender.com
+      - key: DB_CONNECTION
+        value: mysql
+      - key: DB_HOST
+        value: mysql-130ba185-dohuyduong2903-b279.c.aivencloud.com
+      - key: DB_PORT
+        value: 28722
+      - key: DB_DATABASE
+        value: music_shop
+      - key: DB_USERNAME
+        value: avnadmin
+      - key: DB_PASSWORD
+        sync: false

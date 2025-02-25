@@ -1,2 +1,3 @@
 *
 !.gitignore
+!*.*         # Cho phép tất cả các file có phần mở rộng (vd: .jpg, .png)

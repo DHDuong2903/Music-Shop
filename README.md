@@ -25,7 +25,7 @@ Ngành học: CNTT
 
 4. Sơ đồ các chức năng UML
 
-* Đăng nhập
+-   Đăng nhập
 
 <p align="center">
   <img src="umls/login.png" alt="Login UML" title="Login UML" />
@@ -33,42 +33,42 @@ Ngành học: CNTT
   Sơ đồ UML chức năng đăng nhập trang admin
 </p>
 
-* Create (product)
+-   Create (product)
 
 <p align="center">
   <img src="umls/create.png" alt="Create UML" title="Create UML" />
   Sơ đồ UML chức năng thêm sản phẩm
 </p>
 
-* Read (product)
+-   Read (product)
 
 <p align="center">
   <img src="umls/list.png" alt="List UML" title="List UML" />
   Sơ đồ UML chức năng xem sản phẩm
 </p>
 
-* Update (product)
+-   Update (product)
 
 <p align="center">
   <img src="umls/update.png" alt="Update UML" title="Update UML" />
   Sơ đồ UML chức năng sửa sản phẩm
 </p>
 
-* Delete (product)
+-   Delete (product)
 
 <p align="center">
   <img src="umls/delete.png" alt="Delete UML" title="Delete UML" />
   Sơ đồ UML chức năng xóa sản phẩm
 </p>
 
-* Upload 
+-   Upload
 
 <p align="center">
   <img src="umls/upload.png" alt="Upload UML" title="Upload UML" />
   Sơ đồ UML chức năng upload ảnh
 </p>
 
-* Cart
+-   Cart
 
 <p align="center">
   <img src="umls/cart.png" alt="Cart UML" title="Cart UML" />
@@ -77,38 +77,40 @@ Ngành học: CNTT
 
 5. Giao diện trang web
 
-* UI đăng nhập
+-   UI đăng nhập
 
 <p align="center">
   <img src="umls/login-img.png" alt="Login" title="Login" />
 </p>
 
-* UI trang admin
+-   UI trang admin
 
 <p align="center">
   <img src="umls/admin-img.png" alt="Admin " title="Admin" />
 </p>
 
-* UI trang bán hàng
+-   UI trang bán hàng
 
 <p align="center">
   <img src="umls/home-img.png" alt="Home " title="Home" />
 </p>
 
-* UI sản phẩm
+-   UI sản phẩm
 
 <p align="center">
   <img src="umls/product-img.png" alt="Product " title="Product" />
 </p>
 
-* UI giỏ hàng
+-   UI giỏ hàng
 
 <p align="center">
   <img src="umls/cart-img.png" alt="Cart " title="Cart" />
 </p>
 6. Link deploy
 
-Login admin: 
+Link: https://music-shop-l1n5.onrender.com
+
+Login admin:
 
 Email: admin@localhost.com
 

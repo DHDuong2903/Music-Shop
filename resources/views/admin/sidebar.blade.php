@@ -1,9 +1,9 @@
 
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-light-primary elevation-4">
   <!-- Brand Logo -->
   <a href="{{ asset('admin') }}" class="brand-link">
-    <img src="{{ asset('template/admin/dist/img/favicon-music.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3">
-    <span class="brand-text font-weight-light">Music Shop</span>
+    <img src="{{ asset('template/admin/dist/img/favicon-music.png') }}" class="brand-image img-circle elevation-3">
+    <span class="brand-text font-weight-medium">Music Shop</span>
   </a>
 
   <!-- Sidebar -->
@@ -15,18 +15,6 @@
       </div>
       <div class="info">
         <a href="#" class="d-block">Do Huy Duong</a>
-      </div>
-    </div>
-
-    <!-- SidebarSearch Form -->
-    <div class="form-inline">
-      <div class="input-group" data-widget="sidebar-search">
-        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-          <button class="btn btn-sidebar">
-            <i class="fas fa-search fa-fw"></i>
-          </button>
-        </div>
       </div>
     </div>
 
@@ -59,7 +47,7 @@
 
         <li class="nav-item">
           <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-store-alt"></i>
+              <i class="nav-icon fas fa-guitar"></i>
               <p> Product
                   <i class="right fas fa-angle-left"></i>
               </p>

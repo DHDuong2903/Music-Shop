@@ -15,6 +15,12 @@ Mã sinh viên: 22010179
 
 Ngành học: CNTT
 
+Login admin:
+
+Email: admin@localhost.com
+
+Password: 29032004
+
 3. Sơ đồ khối UML
 
 <p align="center">
@@ -110,8 +116,4 @@ Ngành học: CNTT
 
 Link: https://music-shop-l1n5.onrender.com
 
-Login admin:
 
-Email: admin@localhost.com
-
-Password: 29032004

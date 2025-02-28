@@ -1,5 +1,5 @@
 
-<aside class="main-sidebar sidebar-light-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
   <a href="{{ asset('admin') }}" class="brand-link">
     <img src="{{ asset('template/admin/dist/img/favicon-music.png') }}" class="brand-image img-circle elevation-3">
